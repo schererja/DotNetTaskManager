@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.1.2" />
+    <PackageReference Include="microsoft.aspnetcore.hosting" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel.Core" Version="2.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.WebSockets" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Manager.LIBS.Model\Manager.LIBS.Model.csproj" />
+    <ProjectReference Include="..\Manager.LIBS.Pipe\Manager.LIBS.Pipe.csproj" />
+    <ProjectReference Include="..\Manager.Services.Logger\Manager.Services.LoggerService.csproj" />
+    <ProjectReference Include="..\Manager.Services.PipeService\Manager.Services.PipeService.csproj" />
+  </ItemGroup>
+
+</Project>

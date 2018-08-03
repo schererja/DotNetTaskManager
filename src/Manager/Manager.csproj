@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <ApplicationManifest>app1.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.extensions.configuration" Version="2.1.1" />
+    <PackageReference Include="Microsoft.extensions.configuration.fileextensions" Version="2.1.1" />
+    <PackageReference Include="Microsoft.extensions.configuration.json" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.logging" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.logging.console" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.logging.debug" Version="2.1.1" />
+    <PackageReference Include="Microsoft.extensions.options.configurationextensions" Version="2.1.1" />
+    <PackageReference Include="nlog" Version="4.5.6" />
+    <PackageReference Include="nlog.extensions.logging" Version="1.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Manager.Application\Manager.Application.csproj" />
+    <ProjectReference Include="..\Manager.Services.InterrogatorService\Manager.Services.InterrogatorService.csproj" />
+    <ProjectReference Include="..\Manager.Services.TaskService\Manager.Services.TaskService.csproj" />
+    <ProjectReference Include="..\Manager.Services.PipeService\Manager.Services.PipeService.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="app-settings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="nlog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

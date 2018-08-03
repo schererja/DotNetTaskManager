@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.extensions.caching.memory" Version="2.1.1" />
+    <PackageReference Include="Nlog" Version="4.5.6" />
+  </ItemGroup>
+
+</Project>

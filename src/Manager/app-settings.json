@@ -1,0 +1,51 @@
+﻿{
+  "Configuration": {
+    "Title": "Task Manager",
+    "Components": [
+      {
+        "Name": "PipeService",
+        "Properties": {
+          "Enabled": true
+        }
+      },
+      {
+        "Name": "InteractiveConsoleService",
+        "Properties": {
+          "Enabled": true
+        }
+      },
+      {
+        "Name": "TaskService",
+        "Properties": {
+          "Enabled": true
+        }
+      },
+      {
+        "Name": "TCPService",
+        "Properties": {
+          "Enabled": true,
+          "IP": "127.0.0.1",
+          "Port": "8080"
+        }
+      },
+      {
+        "Name": "ErrorProcessingService",
+        "Properties": {
+          "Enabled": true
+        }
+      },
+      {
+        "Name": "CMDRunnerService",
+        "Properties": {
+          "Enabled": true
+        }
+      },
+      {
+        "Name": "InterrogatorService",
+        "Properties": {
+          "Enabled": true
+        }
+      }
+    ]
+  }
+}

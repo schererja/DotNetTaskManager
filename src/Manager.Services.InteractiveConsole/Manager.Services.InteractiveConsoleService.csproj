@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Manager.Service.InteractiveConsoleService.DrawScreen\Manager.Services.InteractiveConsoleService.DrawScreen.csproj" />
+    <ProjectReference Include="..\Manager.Services.InteractiveConsoleService.Logger\Manager.Services.InteractiveConsoleService.Logger.csproj" />
+    <ProjectReference Include="..\Manager.Services.PipeService\Manager.Services.PipeService.csproj" />
+    <ProjectReference Include="..\Manager.Services.TaskService\Manager.Services.TaskService.csproj" />
+  </ItemGroup>
+
+</Project>

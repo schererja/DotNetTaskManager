@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="microsoft.extensions.logging" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Manager.AppSettings\Manager.Settings.csproj" />
+    <ProjectReference Include="..\Manager.Services.InteractiveConsoleService.Logger\Manager.Services.InteractiveConsoleService.Logger.csproj" />
+  </ItemGroup>
+
+</Project>

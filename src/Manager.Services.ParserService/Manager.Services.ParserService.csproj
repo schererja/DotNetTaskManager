@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Manager.LIBS.Model\Manager.LIBS.Model.csproj" />
+    <ProjectReference Include="..\Manager.Services.Logger\Manager.Services.LoggerService.csproj" />
+  </ItemGroup>
+
+</Project>

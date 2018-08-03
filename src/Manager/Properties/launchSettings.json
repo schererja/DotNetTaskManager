@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Manager": {
+      "commandName": "Project",
+      "commandLineArgs": "1234567 START STRESS"
+    }
+  }
+}
